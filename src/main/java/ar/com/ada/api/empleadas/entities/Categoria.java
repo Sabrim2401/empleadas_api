@@ -28,8 +28,6 @@ public class Categoria {
     @JsonIgnore
     private List<Empleada> empleadas = new ArrayList<>();
 
-
-
     public List<Empleada> getEmpleadas() {
         return empleadas;
     }
